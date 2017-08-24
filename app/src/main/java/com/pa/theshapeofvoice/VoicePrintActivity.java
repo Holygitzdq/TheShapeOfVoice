@@ -90,8 +90,7 @@ public class VoicePrintActivity extends AppCompatActivity {
             PALogUtil.d("ASR", "text:" + texttemp + "---islast:" + islast);
 
             textView1.setText(mTextTemp + texttemp);
-            if(textView1.getLineCount() == 2)
-                textView1.setText("");
+
 
         //        mTextTemp = "";
 
