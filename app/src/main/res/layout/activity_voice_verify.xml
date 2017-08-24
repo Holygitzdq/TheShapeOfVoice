@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pa.theshapeofvoice.VoiceVerifyActivity">
+
+    <Button
+        android:id="@+id/btn_voice_verify"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/microphone_plus"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_below="@+id/tView_room"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp" />
+
+    <TextView
+        android:id="@+id/tView_room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="房间"
+        android:textColor="@color/colorgod"
+        android:textSize="20dp"
+        android:layout_marginTop="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_voice_verify"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/colorgod"
+        android:text="声纹验证" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/conference"
+        android:layout_below="@+id/tView_room"
+        android:layout_alignStart="@+id/btn_voice_verify" />
+</RelativeLayout>
